@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Class\ meant\ to\ store\ information\ about\ the\ player\ character.\r\n\r\n\ @author\ Alexandru\ Matei\r\n\ @version\ 29/11/2020\r\n
+comment1.params=
+comment1.target=Player()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Player\r\n
+comment2.params=item
+comment2.target=boolean\ addItemToInventory(Item)
+comment2.text=\r\n\ Adds\ an\ item\ to\ the\ player's\ inventory.\r\n\ @param\ item\ -\ Item\ object\ to\ be\ added.\r\n\ @return\ Returns\ true\ if\ item\ was\ succesfully\ added,\ false\ if\ item\ was\ too\ heavy.\r\n
+comment3.params=amount
+comment3.target=void\ addCash(int)
+comment3.text=\r\n\ Adds\ specified\ amount\ to\ the\ total\ money\ the\ player\ has.\r\n\ @param\ amount\ How\ many\ pounds\ you\ want\ to\ add.\r\n
+comment4.params=
+comment4.target=int\ getCash()
+comment4.text=\r\n\ Returns\ how\ much\ money\ the\ player\ has.\r\n\ @return\ Amount\ of\ money\ as\ an\ int.\r\n
+comment5.params=itemName
+comment5.target=Item\ removeItemByName(java.lang.String)
+comment5.text=\r\n\ Removes\ the\ item\ with\ the\ name\ you\ provide\ from\ the\ player's\ inventory.\r\n\ @return\ The\ item\ object\ corresponding\ the\ the\ name\ you\ gave,\ if\ such\ an\ item\ exists,\ null\ otherwise.\r\n
+comment6.params=
+comment6.target=java.lang.String\ getStringWithItems()
+comment6.text=\r\n\ Returns\ a\ string\ which\ is\ a\ list\ of\ all\ the\ items\ the\ player\ has\ at\ the\ moment.\r\n\ @return\ A\ list\ of\ the\ items\ in\ the\ player's\ inventory.\r\n
+comment7.params=itemName
+comment7.target=boolean\ checkItemByName(java.lang.String)
+comment7.text=\r\n\ Checks\ if\ the\ player's\ inventory\ contains\ an\ item\ with\ the\ name\ you\ provide.\r\n\ @param\ itemName\ Name\ of\ item\ you\ want\ to\ check.\r\n
+numComments=8

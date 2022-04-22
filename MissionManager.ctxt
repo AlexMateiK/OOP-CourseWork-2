@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MissionManager
+comment0.text=\r\n\ An\ organisatorial\ class,\ meant\ to\ manage\ Mission\ type\ objects.\r\n\r\n\ @author\ Alexandru\ Matei\r\n\ @version\ 1/12/2020\r\n
+comment1.params=missionCommandWords
+comment1.target=MissionManager(MissionCommandWords)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ type\ MissionManager.\r\n\ @param\ missionCommandWords\ Object\ of\ type\ MissionCommandWords\ which\ the\ MissionCreator\ class\ needs\ in\ order\ to\ add\ task-related\ commands.\ \r\n
+comment2.params=mission
+comment2.target=void\ addMission(Mission)
+comment2.text=\r\n\ Adds\ a\ mission\ to\ the\ the\ mission\ manager's\ set\ of\ missions.\r\n\ @param\ mission\ A\ mission\ you\ wish\ to\ add\ to\ the\ game.\r\n
+comment3.params=roomManager\ player\ command
+comment3.target=void\ tryCurrentTasks(RoomManager,\ Player,\ Command)
+comment3.text=\r\n\ Goes\ through\ all\ stored\ missions,\ makes\ each\ of\ them\ check\ if\ the\ task\ the\ player\ got\ to\ has\ just\ been\ satisfied.\r\n\ @param\ roomManager\ the\ room\ manager,\ vital\ for\ checking\ the\ task\ conditions\r\n\ @param\ player\ the\ player\ object,\ vital\ for\ checking\ the\ task\ conditions\r\n\ @param\ command\ the\ player's\ most\ recent\ command\ \r\n
+numComments=4

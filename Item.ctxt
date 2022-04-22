@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Class\ 'Item'\ stores,\ processes\ and\ offers\ information\ about\ individual\ items.\r\n\r\n\ @author\ Alexandru\ Matei,\ K20054925\r\n\ @version\ 1.0\ 29/11/2020\r\n
+comment1.params=name\ weight\ collectable
+comment1.target=Item(java.lang.String,\ int,\ boolean)
+comment1.text=\r\n\ Initializes\ an\ Item\ type\ object\ according\ to\ the\ given\ attributes.\r\n\ @param\ name\ Name\ of\ the\ item.\r\n\ @param\ weight\ Weight\ of\ the\ item.\r\n\ @param\ collectable\ True\ if\ the\ item\ can\ be\ picked\ up,\ false\ otherwise.\r\n
+comment2.params=name\ weight\ collectable\ hint
+comment2.target=Item(java.lang.String,\ int,\ boolean,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Returns\ name\ of\ object\r\n\ @return\ String\ containing\ item's\ name.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getHint()
+comment4.text=\r\n\ Returns\ hint\ of\ object.\ \r\n\ After\ calling\ this\ method,\ the\ hint\ will\ disappear,\ as\ it\ is\r\n\ is\ meant\ to\ appear\ online\ one\ time\ in\ the\ game.\r\n\ @return\ String\ containing\ object\ hint\r\n
+comment5.params=
+comment5.target=int\ getWeight()
+comment5.text=\r\n\ Returns\ weight\ of\ item.\r\n\ @return\ Weight\ of\ item.\r\n
+comment6.params=
+comment6.target=boolean\ canBeCollected()
+comment6.text=\r\n\ Returns\ true\ if\ the\ item\ represented\ by\ the\ object\ on\ which\ the\ method\ is\ called\ can\ be\ collected.\r\n
+numComments=7

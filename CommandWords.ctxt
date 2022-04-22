@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ class\ holds\ an\ enumeration\ of\ all\ command\ words\ known\ to\ the\ game.\r\n\ It\ is\ used\ to\ recognise\ commands\ as\ they\ are\ typed\ in.\r\n\r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes,\ modified\ by\ Alexandru\ Matei,\ K20054925\r\n\ @version\ 1/12/2020\r\n
+comment1.params=
+comment1.target=CommandWords()
+comment1.text=\r\n\ Constructor\ -\ initialise\ the\ command\ words.\r\n
+comment2.params=
+comment2.target=void\ fillInCommands()
+comment2.text=\r\n\ \ \ \ Each\ command\ is\ represented\ by\ an\ entry\ into\ the\ HashMap.\r\n\ \ \ \ \r\n\ \ \ \ Key\ \=\ any\ word\ you\ wish\ to\ associate\ with\ a\ command,\ it\ will\ be\ used\r\n\ \ \ \ IN-GAME\ by\ the\ user\ in\ order\ to\ undertake\ in\ action.\r\n\ \ \ \ \r\n\ \ \ \ Value\ \=\ name\ of\ command,\ always\ in\ english,\ used\ in\ the\ code\r\n\ \ \ \ to\ recognize\ command\ chosen\ by\ user\ and\ trigger\ it's\ effects.\r\n\ \ \ \ \r\n\ \ \ \ I\ have\ chosen\ this\ implementation\ in\ order\ to\ be\ able\ to\ add\ \r\n\ \ \ \ any\ action/command\ to\ the\ game\ and\ have\ it\ be\ independent\ from\r\n\ \ \ \ a\ natural\ language,\ in\ the\ sense\ that\ only\ this\ map\ needs\ to\ be\ changed\r\n\ \ \ \ if\ a\ translation\ takes\ place.\r\n\ \ \ \ I\ prefer\ this\ over\ using\ an\ Enum\ type\ because\ it's\ easier\ to\ add\ commands\ on\ the\ fly.\r\n
+comment3.params=aString
+comment3.target=boolean\ isCommand(java.lang.String)
+comment3.text=\r\n\ Check\ whether\ a\ given\ String\ is\ a\ valid\ command\ word.\ \r\n\ @return\ true\ if\ it\ is,\ false\ if\ it\ isn't.\r\n
+comment4.params=
+comment4.target=void\ showAllCommands()
+comment4.text=\r\n\ Print\ all\ valid\ commands\ to\ System.out.\r\n
+comment5.params=aString
+comment5.target=java.lang.String\ representsCommand(java.lang.String)
+comment5.text=\r\n\ Returns\ the\ command\ a\ word\ is\ associated\ with.\r\n\ \r\n\ @param\ aString\ A\ word\ from\ the\ user's\ input.\r\n\ @return\ String\ containing\ a\ standardized\ english\ command\ associated\ with\ given\ word,\ or\ null\ if\ the\ word\ doesn't\ represent\ a\ command.\r\n
+numComments=6

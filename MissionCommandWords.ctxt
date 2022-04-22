@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MissionCommandWords
+comment0.text=\r\n\ This\ class\ creates\ an\ object\ which\ stores,\ in\ a\ flexible\ manner,\ and\ allows\ acces\ to\r\n\ all\ the\ commands\ in\ the\ game\ that\ are\ only\ used\ to\ progress\ tasks,\r\n\ but\ not\ as\ actual\ functional\ interactive\ features.\r\n\r\n\ Mission\ commands\ don't\ "trigger"\ anything\ by\ themselves,\ \ \r\n\ they\ more\ or\ less\ take\ the\ form\ of\ a\ requirement/condition,\ and\ can\ be\ changed\ in\ the\ MissionCreator\ type\ object,\ but\ there\ isn't\ a\ functional\ reason\ to\r\n\ add\ natural\ language\ independence,\ since\ they\ are\ tied\ to\ the\ story\ rather\ than\ the\ actual\ game\ mechanics\ (i.e\ drop\ should\ always\ make\ you\ drop\ an\ item,\r\n\ but\ pick\ is\ specific\ to\ the\ pick\ lemons\ command\ specific\ to\ a\ certain\ task)\r\n\ \r\n\ @author\ Alexandru\ Matei\r\n\ @version\ 1/12/2020\r\n
+comment1.params=
+comment1.target=MissionCommandWords()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MissionCommandWords\r\n
+comment2.params=word
+comment2.target=void\ addMissionCommand(java.lang.String)
+comment2.text=\r\n\ Adds\ a\ specified\ word\ to\ the\ set\ of\ task\ specific\ commands/mission\ commands.\r\n\ @param\ word\ a\ String\ containing\ a\ task\ specific\ command\ word.\r\n
+comment3.params=aString
+comment3.target=boolean\ isMissionCommand(java.lang.String)
+comment3.text=\r\n\ Checks\ if\ a\ given\ word\ is\ part\ of\ its\ list\ of\ task-related\ commands.\r\n\ @param\ aString\ A\ string\ you\ wish\ to\ check.\r\n\ @return\ true\ -\ if\ the\ given\ String\ is\ a\ task-specific\ command\ word,\ false\ otherwise.\r\n
+comment4.params=
+comment4.target=void\ showAllMissionSpecificCommands()
+comment4.text=\r\n\ Prints\ out\ all\ the\ command\ words\ created\ for\ the\ missions.\r\n
+numComments=5

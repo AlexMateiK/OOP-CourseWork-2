@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=RoomManager
+comment0.text=\r\n\ Class\ used\ to\ create\ all\ the\ rooms\ at\ the\ beginning\ of\ the\ game,\r\n\ add\ items\ to\ them,\ and\ store\ them.\r\n\r\n\ @author\ Alexandru\ Matei\r\n\ @version\ 29/11/2020\r\n
+comment1.params=
+comment1.target=RoomManager()
+comment2.params=
+comment2.target=void\ createRooms()
+comment2.text=\r\n\ Creates\ the\ rooms/locations\ for\ the\ game\ and\ stores\ them.\r\n\ Each\ room\ is\ associated\ to\ a\ name,\ which\ will\ be\ later\ used\ to\ get\ the\ reference\ to\ that\ room.\r\n\ This\ is\ where\ the\ whole\ "game\ map"\ is\ created\ and\ laid\ out.\r\n
+comment3.params=
+comment3.target=void\ addItemsToRooms()
+comment3.text=\r\n\ Creates\ and\ adds\ all\ the\ items\ in\ the\ game\ to\ their\ respective\ rooms.\r\n
+comment4.params=name
+comment4.target=Room\ getRoomByName(java.lang.String)
+comment4.text=\r\n\ Get\ the\ reference\ to\ a\ room\ object\ by\ providing\ its\ associated\ name.\r\n\ @param\ name\ Implementation-level\ name\ of\ the\ room\ ("livingroom",\ etc.)\r\n\ @return\ Room\ object\ associated\ with\ the\ provided\ name.\r\n
+comment5.params=
+comment5.target=Room\ getCurrentRoom()
+comment5.text=\r\n\ Get\ the\ reference\ to\ the\ room\ the\ player\ is\ in.\r\n\ @return\ Room\ object\ where\ the\ player\ is.\r\n
+comment6.params=nextRoom
+comment6.target=void\ setCurrentRoom(Room)
+comment6.text=\r\n\ Change\ the\ room\ the\ player\ is\ in\ to\ a\ specified\ room.\r\n\ @param\ nextRoom\ A\ room\ object\ -\ the\ room\ you\ want\ to\ move\ the\ player\ to.\r\n
+comment7.params=
+comment7.target=boolean\ goBack()
+comment7.text=\r\n\ Takes\ the\ player\ back\ to\ the\ last\ room\ they\ were\ in.\r\n\ @return\ true\ if\ the\ player\ has\ been\ in\ any\ room\ beforehand,\ false\ if\ the\ game\ just\ started.\r\n
+numComments=8

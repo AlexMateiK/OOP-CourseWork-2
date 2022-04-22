@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MissionCreator
+comment0.text=\r\n\ This\ class\ is\ used\ to\ create\ all\ the\ missions\ in\ the\ game.\r\n\r\n\ @author\ Alexandru\ Matei\r\n\ @version\ 1/12/2020\r\n
+comment1.params=missionManager\ missionCommandWords
+comment1.target=MissionCreator(MissionManager,\ MissionCommandWords)
+comment1.text=\r\n\ Constructor\ for\ MissionCreator\ type\ objects\r\n\ @param\ missionManager\ It\ needs\ a\ missionManager\ to\ put\ the\ missions\ it\ creates\ into.\r\n\ @param\ missionCommandWords\ It\ needs\ a\ MissionCommandWords\ type\ objects\ to\ add\ new\ task-specific\ commands\ as\ the\ need\ arises.\r\n
+comment2.params=missionManager
+comment2.target=void\ createMissions(MissionManager)
+comment2.text=\r\n\ Creates\ mission\ objects,\r\n\ calls\ the\ internal\ methods\ which\ construct\r\n\ these\ missions,\ adds\ the\ missions\ to\ the\ missionManager.\r\n
+comment3.params=mission1
+comment3.target=void\ createTasksMission1(Mission)
+comment3.text=\r\n\ The\ descriptive\ method\ names\ make\ the\ manipulation\r\n\ of\ the\ task\ objects\ both\ intuitive\ to\ do\ and\ easy\ to\ read.\r\n
+comment4.params=mission2
+comment4.target=void\ createTasksMission2(Mission)
+comment5.params=mission3
+comment5.target=void\ createTasksMission3(Mission)
+comment6.params=mission4
+comment6.target=void\ createTasksMission4(Mission)
+numComments=7

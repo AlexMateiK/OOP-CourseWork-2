@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\r\n\ \r\n\ \r\n\ This\ parser\ reads\ user\ input\ and\ tries\ to\ interpret\ it\ as\ an\ "Adventure"\r\n\ command.\ Every\ time\ it\ is\ called\ it\ reads\ a\ line\ from\ the\ terminal\ and\r\n\ tries\ to\ interpret\ the\ line\ as\ a\ three\ word\ command.\ It\ returns\ the\ command\r\n\ as\ an\ object\ of\ class\ Command.\r\n\r\n\ The\ parser\ has\ a\ set\ of\ known\ command\ words.\ It\ checks\ user\ input\ against\r\n\ the\ known\ commands,\ and\ if\ the\ input\ is\ not\ one\ of\ the\ known\ commands,\ it\r\n\ returns\ a\ command\ object\ that\ is\ marked\ as\ an\ unknown\ command.\r\n\ \r\n\ Later\ addition\:\ The\ parser\ now\ has\ also\ uses\ an\ object\ of\ type\ MissionCommandWords\r\n\ which\ contains\ commands\ added\ as\ part\ of\ tasks,\ which\ have\ no\ other\ functionality\ than\r\n\ to\ be\ recognized\ in\ order\ to\ progress\ the\ game,\ but\ still\ need\ to\ be\ recognized\ \r\n\ in\ the\ same\ way.\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes,\ modified\ by\ Alexandru\ Matei\ k20054925\r\n\ @version\ 1/12/2020\r\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\r\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window.\r\n
+comment2.params=missionCommands
+comment2.target=void\ setMissionCommandWords(MissionCommandWords)
+comment2.text=\r\n\ Assigns\ a\ MissionCommandWords\ object\ to\ the\ parser,\ which\ stores\ and\ manages\ task-specific\ command\ words\ much\ in\ the\ same\ way\ as\ the\ CommandWords\ class\ does\ with\ standard\ commands.\r\n
+comment3.params=
+comment3.target=Command\ getCommand()
+comment3.text=\r\n\ @return\ The\ next\ command\ from\ the\ user.\r\n
+comment4.params=
+comment4.target=void\ showCommands()
+comment4.text=\r\n\ Print\ out\ a\ list\ of\ valid\ command\ words.\r\n
+comment5.params=
+comment5.target=void\ showMissionCommands()
+comment5.text=\r\n\ Print\ out\ a\ list\ of\ valid\ task\ specific\ command\ words.\r\n
+numComments=6

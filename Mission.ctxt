@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Mission
+comment0.text=\r\n\ A\ mission\ to\ be\ done\ by\ the\ player.\r\n\ A\ mission\ is\ composed\ of\ tasks.\r\n\ This\ class\ is\ more\ of\ an\ organisatorial\ one,\ it\ stores\ the\ tasks\ keeps\ track\ of\ the\ current\ task.\r\n\r\n\ @author\ Alexandru\ Matei\r\n\ @version\ 1/12/2020\r\n
+comment1.params=
+comment1.target=Mission()
+comment2.params=task
+comment2.target=void\ addTask(Task)
+comment2.text=\r\n\ Adds\ a\ provided\ task\ to\ the\ mission.\r\n\ Care\ must\ be\ taken\ to\ add\ the\ tasks\ in\ order,\ as\ each\ Mission\ object\ goes\ through\ the\ tasks\ one\ by\ one,\ in\ order,\ from\ the\r\n\ first\ one\ that\ was\ added\ to\ the\ last.\r\n\ @param\ task\ Task\ to\ be\ added.\ \r\n
+comment3.params=roomManager\ player\ command
+comment3.target=boolean\ doCurrentTask(RoomManager,\ Player,\ Command)
+comment3.text=\r\n\ Attempts\ to\ complete\ current\ task.\r\n\ @param\ roomManager\ needed\ for\ the\ task\ conditions\ checks\r\n\ @param\ player\ needed\ for\ the\ condition\ checks\r\n\ @param\ command\ Most\ recent\ command\ issued\ by\ the\ player.\r\n
+comment4.params=roomManager\ player\ command
+comment4.target=boolean\ checkCurrentTask(RoomManager,\ Player,\ Command)
+comment4.text=\r\n\ If\ the\ currentTask\ counter\ is\ still\ at\ a\ valid\ position\ in\ the\ task\ list,\r\n\ the\ checkConditionsMet\ method\ will\ be\ called\ on\ the\ corresponding\ task\r\n\ in\ order\ to\ determine\ if\ that\ that\ has\ just\ been\ done\ by\ the\ player.\r\n
+comment5.params=player\ roomManager
+comment5.target=void\ applyConsequences(Player,\ RoomManager)
+comment5.text=\r\n\ If\ the\ checkCurrentTask\ method\ returned\ true,\ meaning\ the\ command\ fits\ and\ the\ conditions\ were\ met,\ \r\n\ this\ method\ will\ be\ used\ to\ make\ the\ task\ object\ apply\ it's\ consequences\ to\ the\ game.\r\n
+numComments=6
